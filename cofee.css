@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.fond{
+    background-color: rgb(49, 1, 1);
+    color: white;
+    padding-bottom: 10px;
+}
+
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25%;
+    background-attachment: fixed;
+    backface-visibility: visible;
+}
+
+nav .logo{
+    font-size: 40px;
+    font-family: "Inter", sans-serif;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+
+}
+
+nav a:hover{
+    background-color: orange;
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
+}
+/* fin de mon menu */
+
+.section-1{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    gap: 10px;
+}
+.gauche{
+    width: 30%;
+    padding: 20px;
+}
+
+.gauche em{
+    color: orange;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+}
+
+.gauche strong{
+    font-size: 20px;
+
+}
+.gauche span{
+    color: rgb(190, 184, 184);
+}
+
+.gauche .tous{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.gauche .bouton1{
+    background-color: orange;
+    border: none;
+    border-radius: 30px;
+    color: black;
+    padding: 10px 25px 10px 25px;
+}
+
+.gauche .bouton2{
+    border: 1px solid white;
+    background-color:  rgb(49, 1, 1);
+    border-radius: 30px;
+    color: white;
+    padding: 10px 25px 10px 25px;
+}
+.bouton1:hover{
+    background-color:  rgb(49, 1, 1);
+    border: 1px solid white;
+    color: white;
+}
+
+.bouton2:hover{
+    background-color: orange;
+    color: black;
+}
+
+.droite{
+    width: 40%;
+}
+/* fin de section-1 */
+
+.section-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 6%;
+    
+}
+
+
+
+.section-2 .gauche img{
+    border-radius: 100%;
+    width: 80%;
+    height: 250px;
+    object-fit: cover;
+    
+}
+.icone p:hover{
+    color: orange;
+}
+
+.section-2 .droite{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-2 .droite h2{
+    font-weight: bold;
+
+}
+.trais{
+    background-color: orange;
+    width: 8%;
+    height: 5px;
+
+}
+.section-2 .droite p{
+    text-align: center;
+}
+/* fin de mon section-2 */
+
+.section-3{
+    background-color: rgb(37, 36, 36);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 6%;
+    color: white;
+}
+.section-3 h2{
+    font-weight: bold;
+    text-align: center;
+}
+.section-3 .trais{
+    background-color: orange;
+    width: 6%;
+    height: 5px;
+    margin-bottom: 6%;
+
+}
+.section-3 .photo-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 40px;
+    text-align: center;
+
+}
+.photo-grid .photo2, .photo3{
+
+    height: 190px;
+    object-fit: cover;
+}
+.photo6, .photo4{
+    height: 210px;
+}
+
+.section-4 {
+    width: 80%;
+    margin: auto;
+    padding: 6%;
+}
+
+
+
+
+
+.section-5{
+    padding: 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section-5 h2{
+    font-weight: bold;
+    text-align: center;
+}
+.section-5 .trais{
+    background-color: orange;
+    width: 4%;
+    height: 5px;
+    margin-bottom: 7%;
+}
+
+.section-5 .photo-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+   
+}
+.section-5 .photo-grid .image{
+   
+    overflow: hidden;
+    border-radius: 10px; /* Coins arrondis */
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.section5 .photo-grid img{
+     width: 100%;
+    height: 100%;
+    transition: transform 1.3s ease-in-out;
+}
+.section-5 .photo-grid img:hover {
+    transform: scale(1.03);
+}
+
+
+
+.section-6{
+    padding: 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section-6 h2{
+    font-weight: bold;
+    text-align: center;
+}
+.section-6 .trais{
+    background-color: orange;
+    width: 6%;
+    height: 5px;
+    margin-bottom: 7%;
+}
+.section-6 .block{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.section-6 .gauche .bloc{
+    display: flex;
+    gap: 20px;
+}
+
+
+.section-6 .droite{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    height: 400px;
+    padding: 20px;
+}
+
+.section-6 .droite input{
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid gray;
+
+}
+.section-6 .droite textarea{
+    width: 100%;
+    padding: 12px;
+    height: 80PX;
+    border-radius: 12px;
+    outline: none;
+
+}
+
+.section-6 .droite button{
+    background-color: rgb(49, 1, 1);
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+    color: whitesmoke;
+    width: 40%;
+}
+
+.droite button:hover{
+    background-color: white;
+    color: black;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(49, 1, 1);
+    color: white;
+    padding: 10px 30px 2px 30px;
+}
+
+.icone{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+footer p:hover{
+    color: orange;
+}
